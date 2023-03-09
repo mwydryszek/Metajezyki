@@ -1,0 +1,46 @@
+img{
+    height: 30%;
+    width: 20%;
+    align-items: center;
+}
+
+h1,h2,pre{
+    text-align: center;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+article{
+    display: block;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+header p{
+    font-size: 2em;
+}
+
+article header{
+    display: block;
+}
+
+pre{
+    font-size: 2em;
+    clear: both;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 1.5em;
+}
+
+#article3 pre{ 
+    text-align: right;
+}
